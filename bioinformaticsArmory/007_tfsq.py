@@ -8,5 +8,6 @@ from Bio import SeqIO
 # Return: Corresponding FASTA records
 
 def tfsq():
-    with open('datasets/rosalind_tfsq.txt') as input_data:
-	    SeqIO.convert(input_data, 'fastq', 'out.fasta', 'fasta' )
+    with open('datasets/rosalind_tfsq.txt') as input_data, open('datasets/007_TFSQ.txt', 'w') as output_data:
+	    SeqIO.convert(input_data, 'fastq', output_data, 'fasta' )
+        print('Done. Look answer in datasets/007_TFSQ.txt')
