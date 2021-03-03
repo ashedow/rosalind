@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(df3d98e0-5d28-41cf-ae3c-270b5f8da8c6), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/ya/Dev/project/rosalind/scala/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ya/Dev/project/rosalind/scala/src/main/scala/rosalind/RosalindProblem.scala:12:3: not found: value using[0m
+[0m[[0m[31merror[0m] [0m[0m  using (new FileWriter(output)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ya/Dev/project/rosalind/scala/src/main/scala/rosalind/RosalindProblem.scala:12:14: not found: type FileWriter[0m
+[0m[[0m[31merror[0m] [0m[0m  using (new FileWriter(output)) {[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Mar 2, 2021, 4:19:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
