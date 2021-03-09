@@ -1,4 +1,11 @@
-[0m[[0m[33mwarn[0m] [0m[0mthere was one feature warning; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[33mwarn[0m] [0m[0mthere were two feature warnings; re-run with -feature for details[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ya/Dev/project/rosalind/scala/src/main/scala/rosalind/subs_0009.scala:29:96: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, String) => String[0m
+[0m[[0m[31merror[0m] [0m[0m required: (Any, Any) => Any[0m
+[0m[[0m[31merror[0m] [0m[0m        (0 to dna.length-1).filter(i => dna.indexOf(subs,i) == i).map(_ + 1).toString.fold("")(concatStrings)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ya/Dev/project/rosalind/scala/src/main/scala/rosalind/subs_0009.scala:29:91: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Any[0m
+[0m[[0m[31merror[0m] [0m[0m required: IndexedSeq[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        (0 to dna.length-1).filter(i => dna.indexOf(subs,i) == i).map(_ + 1).toString.fold("")(concatStrings)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
